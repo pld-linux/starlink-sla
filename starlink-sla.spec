@@ -5,8 +5,7 @@ Version:	2.4_11.218
 Release:	1
 License:	GPL
 Group:		Libraries
-#Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/sla/sla.tar.Z
-Source0:	sla.tar.Z
+Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/sla/sla.tar.Z
 # Source0-md5:	b418183607ed5c7d7589134da8d233ec
 URL:		http://www.starlink.rl.ac.uk/static_www/soft_further_SLALIB.html
 BuildRequires:	gcc-g77
