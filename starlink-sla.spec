@@ -40,7 +40,7 @@ dzia³aj± na systemach VAX/VMS, ró¿nych platformach uniksowych oraz PC.
 Summary:	Development files for SLA library
 Summary(pl):	Pliki programistyczne biblioteki SLA
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Development files for SLA library.
@@ -52,7 +52,7 @@ Pliki programistyczne biblioteki SLA.
 Summary:	Static Starlink SLA library
 Summary(pl):	Statyczna biblioteka Starlink SLA
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink SLA library.
