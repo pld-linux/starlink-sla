@@ -1,5 +1,5 @@
 Summary:	SLALIB - positional astronomy library
-Summary(pl):	SLALIB - biblioteka do astronomii pozycyjnej
+Summary(pl.UTF-8):   SLALIB - biblioteka do astronomii pozycyjnej
 Name:		starlink-sla
 Version:	2.4_11.218
 Release:	1
@@ -26,38 +26,38 @@ the SLALIB routines, as do a number of telescope control systems
 around the world. The SLALIB versions currently in service are written
 in Fortran 77 and run on VAX/VMS, several Unix platforms and PC.
 
-%description -l pl
-SLALIB to biblioteka funkcji maj±cych u³atwiæ pisanie dok³adnych i
-wiarygodnych aplikacji zwi±zanych z astronomi± pozycyjn±. Wiêkszo¶æ
-funkcji SLALIB odnosi siê do astronomicznych pozycji i czasu, ale jest
-trochê ogólnych, trygonometrycznych i numerycznych. Aplikacje takie
-jak ASTROM, COCO, RV i TPOINT intensywnie wykorzystuj± funkcje SLALIB,
-podobnie jak wiele systemów steruj±cych teleskopami na ¶wiecie.
-Aktualnie u¿ywane wersje SLALIB-a s± napisane w Fortranie 77 i
-dzia³aj± na systemach VAX/VMS, ró¿nych platformach uniksowych oraz PC.
+%description -l pl.UTF-8
+SLALIB to biblioteka funkcji majÄ…cych uÅ‚atwiÄ‡ pisanie dokÅ‚adnych i
+wiarygodnych aplikacji zwiÄ…zanych z astronomiÄ… pozycyjnÄ…. WiÄ™kszoÅ›Ä‡
+funkcji SLALIB odnosi siÄ™ do astronomicznych pozycji i czasu, ale jest
+trochÄ™ ogÃ³lnych, trygonometrycznych i numerycznych. Aplikacje takie
+jak ASTROM, COCO, RV i TPOINT intensywnie wykorzystujÄ… funkcje SLALIB,
+podobnie jak wiele systemÃ³w sterujÄ…cych teleskopami na Å›wiecie.
+Aktualnie uÅ¼ywane wersje SLALIB-a sÄ… napisane w Fortranie 77 i
+dziaÅ‚ajÄ… na systemach VAX/VMS, rÃ³Å¼nych platformach uniksowych oraz PC.
 
 %package devel
 Summary:	Development files for SLA library
-Summary(pl):	Pliki programistyczne biblioteki SLA
+Summary(pl.UTF-8):   Pliki programistyczne biblioteki SLA
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Development files for SLA library.
 
-%description devel -l pl
+%description devel -l pl.UTF-8
 Pliki programistyczne biblioteki SLA.
 
 %package static
 Summary:	Static Starlink SLA library
-Summary(pl):	Statyczna biblioteka Starlink SLA
+Summary(pl.UTF-8):   Statyczna biblioteka Starlink SLA
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink SLA library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka Starlink SLA.
 
 %prep
