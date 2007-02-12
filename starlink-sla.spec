@@ -1,5 +1,5 @@
 Summary:	SLALIB - positional astronomy library
-Summary(pl.UTF-8):   SLALIB - biblioteka do astronomii pozycyjnej
+Summary(pl.UTF-8):	SLALIB - biblioteka do astronomii pozycyjnej
 Name:		starlink-sla
 Version:	2.4_11.218
 Release:	1
@@ -38,7 +38,7 @@ działają na systemach VAX/VMS, różnych platformach uniksowych oraz PC.
 
 %package devel
 Summary:	Development files for SLA library
-Summary(pl.UTF-8):   Pliki programistyczne biblioteki SLA
+Summary(pl.UTF-8):	Pliki programistyczne biblioteki SLA
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -50,7 +50,7 @@ Pliki programistyczne biblioteki SLA.
 
 %package static
 Summary:	Static Starlink SLA library
-Summary(pl.UTF-8):   Statyczna biblioteka Starlink SLA
+Summary(pl.UTF-8):	Statyczna biblioteka Starlink SLA
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
